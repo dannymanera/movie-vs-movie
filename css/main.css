@@ -1,0 +1,45 @@
+@import url('reset.css');
+
+#outer-wrapper {
+  display:flex;
+  flex-flow:row wrap;
+  width:1220px;
+  height:800px;
+  margin:0 auto;
+  border:1px solid black;
+}
+
+#vs {
+  width:300px;
+  height:300px;
+/*   border:1px solid black; */
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:200px;
+  
+}
+
+.movie-poster{
+  width:400px;
+  height:600px;
+/*   border:1px solid black; */
+  padding:10px;
+  margin:10px
+}
+
+#random-btn{
+  background-color:black;
+  width:300px;
+  height:75px;
+  border-radius:40px;
+  margin:0 auto;
+  color:white;
+  text-transform:uppercase;
+  text-align:center;
+  line-height:75px;
+  font-size:30px;
+  font-family:Avenir;
+  cursor:pointer;
+  
+}
+
